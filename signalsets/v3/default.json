@@ -1,4 +1,12 @@
 { "commands": [
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "1302"}, "freq": 1,
+  "signals": [
+    { "id": "ALFAROMEO_ENGINE_T", "path": "Engine", "fmt": { "bix": 8, "len": 8, "min": -40, "max": 255, "add": -40, "unit": "fahrenheit" },"name": "Engine oil temperature", "suggestedMetric": "engineOilTemp"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"01": "05"}, "freq": 1,
+  "signals": [
+    {"id": "ALFAROMEO_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "fahrenheit" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
 { "hdr": "6B4", "rax": "694", "dbg": true, "cmd": {"22": "D410"}, "freq": 1,
   "signals": [
     {"id": "ALFAROMEO_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 512, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
