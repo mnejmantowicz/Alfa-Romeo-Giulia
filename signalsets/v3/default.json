@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "1302"}, "freq": 1,
   "signals": [
-    { "id": "ALFAROMEO_ENGINE_T", "path": "Engine", "fmt": { "bix": 8, "len": 8, "min": -40, "max": 255, "add": -40, "unit": "fahrenheit" },"name": "Engine oil temperature", "suggestedMetric": "engineOilTemp"}
+    { "id": "ALFAROMEO_ENGINE_OIL_T", "path": "Engine", "fmt": { "bix": 8, "len": 8, "max": 140, "unit": "celsius" },"name": "Engine oil temperature", "suggestedMetric": "engineOilTemp"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"01": "05"}, "freq": 1,
   "signals": [
