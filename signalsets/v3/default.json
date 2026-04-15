@@ -2,8 +2,7 @@
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "1302"}, "freq": 1,
   "signals": [
     { "id": "ALFAROMEO_EOT", "path": "Engine", "fmt": { "bix": 8, "len": 8, "max": 255, "unit": "celsius" },"name": "Engine oil temperature", "suggestedMetric": "engineOilTemp"}
-  ]
-},
+  ]},
 { "hdr": "6B4", "rax": "694", "dbg": true, "cmd": {"22": "D410"}, "freq": 1,
   "signals": [
     {"id": "ALFAROMEO_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 512, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
