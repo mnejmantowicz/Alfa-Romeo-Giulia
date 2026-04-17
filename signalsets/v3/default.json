@@ -9,7 +9,7 @@
     {
       "id": "ALFAROMEO_ENGINE_OIL_T",
       "path": "Engine",
-      "fmt": { "len": 8, "min": -40, "max": 200, "unit": "celsius" },
+      "fmt": { "bix": 8, "len": 8, "min": 0, "max": 200, "unit": "celsius" },
       "name": "Engine oil temperature",
       "suggestedMetric": "engineOilTemp"
     }
